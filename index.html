@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <title> 期末課題</title>
+    <link rel="stylesheet" href="mystyle.css"> 
+    <link rel="stylesheet" href="imagechange.css"> 
+    <!--
+    <script src="myjs.js"</script>
+    -->
+    <script src="ex6-1.js"></script>
+    <script src="ex6-7.js"></script>
+    <script src="ex06-8.js"></script>
+    <script src="ex06-9.js"></script>
+    <script src="ex06-10.js"></script>
+    <script src="ex06-11.js"></script>
+    <script src="ex7-1.js"></script>
 
+    </head>
+    <body>
+    <!--文字の大きさの練習-->
+   
+    <h1>こんにちは</h1>
+    <input type="button" value="ここを押して" onclick="sayhello();">
+   
+    <br>
+    
+    <!--<input type = "button" value = "がきた!" onclick ="gakita();">
+    -->
+    <br>
+   
+    <div id="txt1" >
+    <input type="button" value="テキストの変更" 
+    onclick="txtchange1();">
+    私は三反田照</div>
+
+    <br>
+    <h1>問題</h1>
+    <input type="button" value="画像の変更" 
+    onclick="imgchange1();">
+    <img src='./img/楽天.jpeg' id="logo" alt="日本ハム" class="imagechange"></imgsrc>
+    <input type="button" value="元に戻す" 
+    onclick="imgchange2();">
+
+    <br>
+    
+    <h3>この人は誰でしょう？</h3>
+    <form name="timer"> 
+        <input type="button" value="スタート" 
+        onclick="startfnc()">
+        <br> 
+        <input type="text" name="moji" size="30" 
+        value=""> </form>
+        <br>
+        <h3>何のスポーツをやっている人でしょう？</h3>
+        <form> <input type="button" value="答え" 
+        onclick="setTimeout('mes()',3000)"> </form>
+
+         
+    <h1>リンク先</h1>
+    <a href="https://www.fighters.co.jp/education/management/index.html/">北海道日本ハムファイターズ</a><br>
+    <a href="https://www.rakuteneagles.jp/education/management/index.html/">東北楽天ゴールデンイーグスル</a><br>
+   
+        
+</from>
+
+<h2>今日はありがとう！</h2>
+<p>感想<input type="text" id="who71"></p>
+<input type="button" value="送信" 
+onclick="sayhello71();">
+
+</body>
+
+    </html>
