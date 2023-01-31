@@ -1,6 +1,6 @@
 function hyoji() { 
     //表示する文字
-    var str= "西川遥輝"; 
+    var str= "村上宗隆"; 
     //テキストボックスの文字数
     var cnt= document.timer.moji.value.length; 
     //文字が全部表示されているか確認
