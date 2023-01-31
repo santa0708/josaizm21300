@@ -1,6 +1,6 @@
 function imgchange1() {
     document.getElementById('logo').src= 
-    './img/日本ハム.jpeg';
+    './img/OIP (1).jpeg';
     }
     function imgchange2() {
         document.getElementById('logo').src= 
